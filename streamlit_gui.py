@@ -150,7 +150,7 @@ if search:
         if id_ is None:
             continue
 
-        url = result["id"]
+        url = result["url"]
         revid = result["revid"]
         title = result["title"]
         old_url = f"https://cs.wikipedia.org/w/index.php?title={title}&oldid={revid}"
